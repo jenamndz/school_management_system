@@ -42,5 +42,9 @@ class Student(Person):
         print(f"Age       : {self.get_age()}")
         print(f"ID        : {self.__student_id}")
         print(f"Course    : {self.__course}")
-        
+
 class Teacher(Person):
+    def __init__(self, name, age, employee_id, subject):
+        super().__init__(name, age)
+        self.__employee_id = employee_id
+        self.__subject = subject
