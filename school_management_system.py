@@ -20,3 +20,5 @@ class Person(ABC):
     @abstractmethod
     def display_info(self):
         pass
+
+class Student(Person):
