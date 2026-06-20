@@ -57,3 +57,10 @@ class Teacher(Person):
 
     def set_subject(self, subject):
         self.__subject = subject
+
+    def display_info(self):
+        print("\n----- TEACHER -----")
+        print(f"Name       : {self.get_name()}")
+        print(f"Age        : {self.get_age()}")
+        print(f"Employee ID: {self.__employee_id}")
+        print(f"Subject    : {self.__subject}")
