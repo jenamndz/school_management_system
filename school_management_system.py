@@ -22,3 +22,7 @@ class Person(ABC):
         pass
 
 class Student(Person):
+    def __init__(self, name, age, student_id, course):
+        super().__init__(name, age)
+        self.__student_id = student_id
+        self.__course = course
