@@ -54,3 +54,6 @@ class Teacher(Person):
 
     def get_subject(self):
         return self.__subject
+
+    def set_subject(self, subject):
+        self.__subject = subject
