@@ -16,3 +16,7 @@ class Person(ABC):
 
     def set_age(self, age):
         self.__age = age
+
+    @abstractmethod
+    def display_info(self):
+        pass
