@@ -48,3 +48,9 @@ class Teacher(Person):
         super().__init__(name, age)
         self.__employee_id = employee_id
         self.__subject = subject
+
+    def get_employee_id(self):
+        return self.__employee_id
+
+    def get_subject(self):
+        return self.__subject
