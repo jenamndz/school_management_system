@@ -26,3 +26,9 @@ class Student(Person):
         super().__init__(name, age)
         self.__student_id = student_id
         self.__course = course
+
+    def get_student_id(self):
+        return self.__student_id
+
+    def get_course(self):
+        return self.__course
