@@ -35,3 +35,10 @@ class Student(Person):
 
     def set_course(self, course):
         self.__course = course
+
+    def display_info(self):
+        print("\n----- STUDENT -----")
+        print(f"Name      : {self.get_name()}")
+        print(f"Age       : {self.get_age()}")
+        print(f"ID        : {self.__student_id}")
+        print(f"Course    : {self.__course}")
