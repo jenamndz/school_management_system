@@ -32,3 +32,6 @@ class Student(Person):
 
     def get_course(self):
         return self.__course
+
+    def set_course(self, course):
+        self.__course = course
