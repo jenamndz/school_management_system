@@ -66,3 +66,7 @@ class Teacher(Person):
         print(f"Subject    : {self.__subject}")
 
 class AdminStaff(Person):
+    def __init__(self, name, age, staff_id, department):
+        super().__init__(name, age)
+        self.__staff_id = staff_id
+        self.__department = department
