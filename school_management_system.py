@@ -96,3 +96,6 @@ class School:
 
     def display_all_members(self):
         print("\n========== SCHOOL MEMBERS ==========")
+
+        for member in self.__members:
+            member.display_info()
