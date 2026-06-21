@@ -79,3 +79,10 @@ class AdminStaff(Person):
 
     def set_department(self, department):
         self.__department = department
+
+    def display_info(self):
+        print("\n----- ADMIN STAFF -----")
+        print(f"Name       : {self.get_name()}")
+        print(f"Age        : {self.get_age()}")
+        print(f"Staff ID   : {self.__staff_id}")
+        print(f"Department : {self.__department}")
