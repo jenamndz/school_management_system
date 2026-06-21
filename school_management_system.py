@@ -64,3 +64,5 @@ class Teacher(Person):
         print(f"Age        : {self.get_age()}")
         print(f"Employee ID: {self.__employee_id}")
         print(f"Subject    : {self.__subject}")
+
+class AdminStaff(Person):
