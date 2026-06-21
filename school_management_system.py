@@ -70,3 +70,9 @@ class AdminStaff(Person):
         super().__init__(name, age)
         self.__staff_id = staff_id
         self.__department = department
+
+    def get_staff_id(self):
+        return self.__staff_id
+
+    def get_department(self):
+        return self.__department
