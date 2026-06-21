@@ -88,3 +88,5 @@ class AdminStaff(Person):
         print(f"Department : {self.__department}")
 
 class School:
+    def __init__(self):
+        self.__members = []
