@@ -115,3 +115,10 @@ teacher1 = Teacher(
     "EMP-101",
     "Object Oriented Programming"
 )
+
+staff1 = AdminStaff(
+    "Daena P. Castillo",
+    40,
+    "STF-201",
+    "Registrar"
+)
