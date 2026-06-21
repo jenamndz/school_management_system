@@ -90,3 +90,6 @@ class AdminStaff(Person):
 class School:
     def __init__(self):
         self.__members = []
+
+    def add_member(self, member):
+        self.__members.append(member)
