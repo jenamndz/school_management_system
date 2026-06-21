@@ -99,3 +99,12 @@ class School:
 
         for member in self.__members:
             member.display_info()
+
+school = School()
+
+student1 = Student(
+    "Jena Rhossel P. Mendoza",
+    19,
+    "2025-04701-MN-0",
+    "BS Computer Engineering"
+)
