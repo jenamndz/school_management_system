@@ -126,3 +126,5 @@ staff1 = AdminStaff(
 school.add_member(student1)
 school.add_member(teacher1)
 school.add_member(staff1)
+
+school.display_all_members()
