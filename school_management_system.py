@@ -108,3 +108,10 @@ student1 = Student(
     "2025-04701-MN-0",
     "BS Computer Engineering"
 )
+
+teacher1 = Teacher(
+    "Engr. Danilo Madrigalejos Jr.",
+    35,
+    "EMP-101",
+    "Object Oriented Programming"
+)
