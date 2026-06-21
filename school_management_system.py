@@ -76,3 +76,6 @@ class AdminStaff(Person):
 
     def get_department(self):
         return self.__department
+
+    def set_department(self, department):
+        self.__department = department
