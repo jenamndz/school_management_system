@@ -122,3 +122,7 @@ staff1 = AdminStaff(
     "STF-201",
     "Registrar"
 )
+
+school.add_member(student1)
+school.add_member(teacher1)
+school.add_member(staff1)
