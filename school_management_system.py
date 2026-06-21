@@ -93,3 +93,6 @@ class School:
 
     def add_member(self, member):
         self.__members.append(member)
+
+    def display_all_members(self):
+        print("\n========== SCHOOL MEMBERS ==========")
